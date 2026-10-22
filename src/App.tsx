@@ -1,11 +1,6 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 // @ts-ignore CSS is loaded by the bundler; TypeScript has no declaration for it.
 import './App.css';
-import { Topbar } from './components/Topbar';
-import { Sidebar } from './components/Sidebar';
-import { Content } from './components/Content';
-import { count } from 'console';
 
 function App() {
     return (
@@ -17,8 +12,7 @@ function App() {
       //     </div>
       // </div> 
 
-      <div className=""> AAA </div>
+      <div className=" app-container "> Hello</div>
     );
 };
-
 export default App;
